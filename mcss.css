@@ -1,0 +1,172 @@
+body
+{
+	top:20%;
+	left:5%;
+	right:5%;
+	font-family:Monotype Corsiva;
+	background-color:#F5F5F5;
+	color:#683B2B;
+}
+.bg
+{
+	position: sticky;
+  	top: 0;
+	z-index: 999;
+	background-color:#F5F5F5;
+}
+.image1 
+{
+        position: relative;
+	margin-top:10px;
+}
+.tex
+{
+        left: 60%;
+	font-size:43px;
+	font-weight: bold;
+}
+.text
+{
+        position: absolute;
+        top: 34%;
+        left: 65%;
+	font-size:50px;
+	font-weight: bold;
+        font-colour:white;
+}
+.text0
+{
+        position: absolute;
+        top: 47%;
+        left: 64%;
+	font-size:15px;
+	font-weight: bold;
+        font-colour:white;
+}
+.text1
+{
+        position: absolute;
+        top: 63%;
+        left: 65%;
+}
+.text2
+{
+        position: absolute;
+        top: 63%;
+        left: 77.5%;
+}.text3
+{
+        position: absolute;
+        top: 10%;
+        left: 91%;
+}
+.text4
+{
+        position: absolute;
+        top: 6%;
+        left: 93%;
+}
+.text5
+{
+        position: absolute;
+        top: 6%;
+        left: 83%;
+}
+.text6 {
+	text-decoration:none;
+	}
+	
+.text6 {
+	text-decoration:none;
+	}
+	
+.h{
+	position: absolute;
+	top: -15%;
+	right: 88%;
+	}
+.hi1{
+	position: absolute;
+	top: -15%;
+	right: 70%;
+	}
+.hi2{
+	position: absolute;
+	top: -15%;
+	right: 52%;
+	}
+.di
+{
+	position: relative;
+	display: block;
+  	margin-left: 40%;
+	font-size:30px;
+ 	margin-right: auto;
+}
+.di1
+{
+	position: relative;
+	display: block;
+  	margin-left: 40%;
+	font-size:23px;
+ 	margin-right: auto;
+}
+.img
+{
+	position:absolute;
+	border-radius: 10px;
+	display: block;
+  	left: 9%;
+ 	margin-right: auto;
+  	width: 27%;
+}
+.img1
+{
+	position:absolute;
+	border-radius: 10px;
+	display: block;
+  	left: 9%;
+ 	margin-right: auto;
+  	width: 27%;
+}
+.foot
+{
+	border-radius: 20px;
+	position: absolute;
+	display: block;
+  	margin-left: 8.5%;
+ 	margin-right: 20%;
+}
+.ft1
+{
+	position: relative;
+	display: block;
+  	margin-left: 39%;
+	font-size:30px;
+ 	margin-right: auto;
+	color:#B8860B;
+}
+.ft2
+{
+	text-decoration:none;
+	position: relative;
+	display: block;
+  	margin-left: 19%;
+	font-size:18px;
+ 	margin-right: auto;
+	color:#B8860B;
+}
+input[type='button']
+{
+	background-color:#D49E8D;
+ 	border: none;
+	border-radius: 4px;
+   	padding: 5px 15px;
+  	text-align: center;
+  	text-decoration: none;
+	color:#683B2B;
+  	display: inline-block;
+  	font-size: 25px;
+	font-family:Monotype Corsiva;
+	font-weight: bold;
+}

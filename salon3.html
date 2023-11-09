@@ -1,0 +1,309 @@
+<html>
+<head>
+
+<title>salon</title>
+
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="salonstyle.css">
+<style>
+body
+{
+	top:20%;
+	left:5%;
+	right:5%;
+	font-family:Monotype Corsiva;
+	background-color:#683B2B;
+	color:#683B2B;
+}
+.bg
+{
+	position: sticky;
+  	top: 0;
+	z-index: 999;
+	background-color:#F5F5F5;
+}
+.tex
+{
+        left: 60%;
+	font-size:43px;
+	font-weight: bold;
+}
+.text {
+	position:absolute;
+	right:10px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+	
+.text2 {
+	position:absolute;
+	right:125px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+.text3 {
+	position:absolute;
+	right:245px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+.i
+	{
+		position: absolute;
+        top: 12%;
+        left: 13%;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+	
+.fieldset {
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	right: 25%;
+	border: none;
+	background-color:white;
+	font-size:15;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color:#683B2B; 
+	width: 40%;
+	height: 84%;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="#F5F5F5">
+
+<div class="bg">
+<div class="sticky-top">
+<header>
+<div class="row">
+<div class="col-sm-6">
+<h2 class="tex"><b>E T H E R E A L</b></h2>
+</div>
+<div class="col-sm-2" align="right">
+<a class="text" href="D:\UIUX project\salon.html"><b>SERVICES</b></a>
+</div>
+<div class="col-sm-2" align="right">
+<a class="text2" href="log.html"><b>SIGN UP   |  </b></a>
+</div>
+<div class="col-sm-2" align="right">
+<a class="text3" href="index.html"><b>HOME  | </b></a>
+</div>
+</div>
+</header>
+</div>
+</div>
+
+<div class="container">
+<center>
+		<img align="center" class="i" src="img21.jpg" alt="img1" height="84%" width="40%"/>
+</center>
+</div>
+
+<fieldset class="fieldset">
+	<form method="get">
+		<center>
+            
+                <div class="row mt-5">
+                    <div class="col-sm-6"><b> NAME: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <input type="text" name="name" placeholder="Enter your Name:" id="name" pattern="^[a-zA-Z]{5,12}" required>
+                    <p id="demo"></p>
+					</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"><b> PHONE NO: </b></div>
+                    <div class="col-sm-6" align="left">
+					<input type="text" name="dob"  placeholder="Enter your Phone No:" id="pno" pattern="^[0-9]{10,15}" required>
+                    <p id="demo1"></p>
+					</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"><b> SLOT DATE AND TIME: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <input type="datetime-local" id="slot" name="datetime" required>
+                    <p id="demo3"></p></div>
+                </div>
+				<div class="row">
+                    <div class="col-sm-6"><b> STYLIST: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <select id="n5" name="level" required>
+						<option value="select option">--Select Option--</option>
+						<option value="Top">Master Stylist</option>
+						<option value="low">Junior Stylist</option>
+						<option value="entry">Entry level Stylist</option>
+					</select>
+                    <p id="demo4"></p></div>
+                </div>
+				<div class="row">
+                    <div class="col-sm-6"><b> SERVICE: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <label> <input type="checkbox" name="service" id="opt1" value="500"required> Hair Cut & Hair Spa - Rs.1500 </label>
+					<br>
+					<label> <input type="checkbox" name="service" id="opt3" value="1500"> Hair Coloring - Rs.1500 </label>
+					<br>
+					<label> <input type="checkbox" name="service" id="opt4" value="3000"> Hair Treatemnt - Rs.3000 </label>
+					<br>
+					<label> <input type="checkbox" name="service" id="opt5" value="2000"> Hair Do - Rs.2000 </label>
+                    <p id="demo5"></p></div>
+                </div>
+				<div class="row">
+                    <div class="col-sm-6"><b> HAIR LENGTH: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <label> <input type="checkbox" name="service" id="opt6" value="500"required> Long - Rs.1000 </label>
+					<br>
+					<label> <input type="checkbox" name="service" id="opt7" value="1000"> Medium - Rs.750 </label>
+					<br>
+					<label> <input type="checkbox" name="service" id="opt8" value="1500"> Short - Rs.500 </label>
+                    <p id="demo6"></p></div>
+                </div>
+				<div class="row">
+                    <div class="col-sm-6"><b> TOTAL AMOUNT: </b></div>
+                    <div class="col-sm-6" align="left"> 
+                    <input type="text" id="total" readonly>
+                </div>
+		</center>
+    </form>
+				<div class="form-group" align="center">
+				    <div class="row mb-4">
+						<div class="col-sm-4">
+							<input class="btn btn-dark btn-lg btn-block" type="Submit" onclick="navigate()" value="Cancel"/>
+						</div>
+						<div class="col-sm-4">
+							<input class="btn btn-dark btn-lg btn-block" type="Submit" onclick="cal()" value="Submit"/>
+						</div>
+						<div class="col-sm-4">
+							<input class="btn btn-dark btn-lg btn-block" type="Submit" onclick="check()" value="Book Slot"/>
+						</div>
+					</div>
+			   </div>
+</fieldset>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+	function cal(){
+		var opt1 = document.getElementById("opt1");
+		var opt3 = document.getElementById("opt3");
+		var opt4 = document.getElementById("opt4");
+		var opt5 = document.getElementById("opt5");
+		var opt6 = document.getElementById("opt6");
+		var opt7 = document.getElementById("opt7");
+		var opt8 = document.getElementById("opt8");
+		var totaltxt = document.getElementById("total");
+		var total = 0;
+		console.log(opt1);
+		if (opt1.checked == true)
+		{
+			total += 1500;
+		}
+		if (opt3.checked == true)
+		{
+			total += 1500;
+		}
+		if (opt4.checked == true)
+		{
+			total += 3000;
+		}
+		if (opt5.checked == true)
+		{
+			total += 2000;
+		}
+		if (opt6.checked == true)
+		{
+			total += 1000;
+		}
+		if (opt7.checked == true)
+		{
+			total += 750;
+		}
+		if (opt8.checked == true)
+		{
+			total += 500;
+		}
+		totaltxt.value = "Rs." + total;	
+	}	
+	
+</script>
+
+
+
+
+
+<script type="text/JavaScript">
+function check(){
+                
+                var id=document.getElementById('name');
+                if (id.validity.valueMissing){
+                     document.getElementById('demo').innerHTML="Please Enter the Value!!";
+                }
+                else if(id.validity.patternMismatch){
+                    document.getElementById('demo').innerHTML="Error! Id accepts alphanumeric char between 5 to 12";
+                }
+                else{
+                    document.getElementById("demo").innerHTML="";
+                 }
+				
+				var id1=document.getElementById('pno');
+                if (id1.validity.valueMissing){
+                     document.getElementById('demo1').innerHTML="Please Enter the Value!!";
+                }
+                else if(id1.validity.patternMismatch){
+                     document.getElementById('demo1').innerHTML="Error! Id accepts numeric char between 10 to 12";
+                 }
+                else{
+                    document.getElementById("demo1").innerHTML="";
+                }
+
+                var id3=document.getElementById('slot');
+                if (id3.validity.valueMissing){
+                    document.getElementById('demo3').innerHTML="Please Enter any Option!!";
+                }
+                else{
+                     document.getElementById("demo3").innerHTML="";
+                }
+				
+				var id4=document.getElementById('n5');
+                if (id4.validity.valueMissing){
+                    document.getElementById('demo4').innerHTML="Please Select any Option!!";
+                }
+                else{
+                     document.getElementById("demo4").innerHTML="";
+                }
+				
+
+				 
+				 if (id.checkValidity() && id1.checkValidity() && id3.checkValidity() && id4.checkValidity()) {
+                    alert("Appoinment has been Booked Successfully!!"); 
+					window.location.href="book.html";
+					const total = document.getElementById("total").value;
+					var encodedtotal = encodeURIComponent(total);
+					const url = 'book.html';
+					window.location.href = url + '?total=' + encodedtotal;
+					}
+	            }			 
+		
+</script>
+
+<script type="text/JavaScript">
+	function navigate()
+		{
+			alert("Your Appointment has been cancelled Successfully!!");
+			window.location.href="cancel.html";
+		}
+</script>
+
+
+
+</body>
+</html>

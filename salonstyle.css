@@ -1,0 +1,338 @@
+body{
+	top:20%;
+	left:5%;
+	right:5%;
+	font-family:Monotype Corsiva;
+	background-color:#F5F5F5;
+	color:#683B2B;
+	}
+	
+.bg
+{
+	position: sticky;
+  	top: 0;
+	z-index: 999;
+	background-color:#F5F5F5;
+}
+	
+.bg2{
+	position: sticky;
+	float:right;
+	width:50%;
+	height:10%;
+  	top: 0;
+	z-index: 999;
+	background-color:#F5F5F5;
+	}
+	
+#btn{
+	position:relative;
+	top:0%;
+	right:-79%;
+	}
+
+.h1{
+	font-size:37;
+	font-style:bold;
+	
+	}
+
+.h2{
+	font-size:29;
+	font-style:bold;
+	}
+	
+.p1{
+	font-size:23;
+	}
+
+.p2{
+	font-size:17;
+	}
+	
+.tex
+	{
+        left: 60%;
+		font-size:45px;
+		font-weight: bold;
+	}
+	
+.text {
+	position:absolute;
+	right:10px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+	
+.text2 {
+	position:absolute;
+	right:125px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+	
+.text3 {
+	position:absolute;
+	right:285px;
+	font-size: 25;
+	color:#683B2B;
+	text-decoration:none;
+	}
+.text4
+	{
+        position: absolute;
+        top: 6%;
+        left: 93%;
+	}
+.text5
+	{
+        position: absolute;
+        top: 6%;
+        left: 83%;
+	}
+
+.text6
+	{
+        position: absolute;
+        top: 6%;
+        left: 77%;
+	}
+
+#div1{
+	position: relative;
+	top: 30%;
+	right:25%;
+	}
+	
+#div2{
+	position: relative;
+	top: -45%;
+	left:25%;
+	}
+
+#div3{
+	float:right;
+	width:50%;
+	position: relative;
+	top: 40%;
+	left:1%;
+	}
+
+#div4{
+	position: relative;
+	top: 5%;
+	left:0%;
+	}
+	
+#img{
+	position: relative;
+	top: 20%;
+	left:5%;
+	}
+	
+#img1{
+	position: relative;
+	top: 10%;
+	left:5%;
+	}
+	
+#img2{
+	position: relative;
+	top: -39.5%;
+	left:-28%
+	}
+	
+#img3{
+	position: relative;
+	top: -99.3%;
+	right:5%;
+	}
+	
+#img4{
+	position: relative;
+	top: 30%;
+	left:7%;
+	}
+	
+#img5{
+	position: relative;
+	top: -20%;
+	left:-37%;
+	}
+	
+#img6{
+	position: relative;
+	top: -100%;
+	right:7%
+	}
+	
+#img7{
+	position: relative;
+	top: -30%;
+	right:-55%;
+	}
+	
+#img8{
+	position: relative;
+	top: 50%;
+	left:7%;
+	}
+	
+#img9{
+	position: relative;
+	top: 75%;
+	left:-36%;
+	}
+	
+#img10{
+	position: relative;
+	top: -5%;
+	right:9%
+	}
+	
+.img1 {
+position: relative;
+top: 0;
+left: 0;
+border: 1px solid balck; 
+	}
+	
+.img-responsive {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;
+}
+
+.i
+	{
+		position: absolute;
+        top: 12%;
+        left: 13%;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+	
+.fieldset {
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	right: 25%;
+	border: none;
+	background-color:white;
+	font-size:15;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color:#683B2B; 
+	width: 40%;
+	height: 84%;
+}
+	
+.fieldset2 {
+	position: absolute;
+	top: 28%;
+	left: 18%;
+	right: 25%;
+	border: 2px solid #000000;
+	background-color:white;
+	font-size:15;
+	border-radius: 30px;
+	color:#683B2B ;
+	width: 25%;
+	height: 50% 
+}
+	
+.center-image {
+	position: absolute;
+	top: 12%;
+	left: 10%;
+	bottom: 17%;
+	width:80%;
+	height:80%;
+}
+
+	
+#table{
+    border: 1px solid black;
+	border-collapse:separate;
+	border-spacing: 15px;
+	padding:12px 20px;
+	}
+	 
+	
+#txt1{
+	position: relative;
+	top: -40%;
+	left:-21%;
+	}
+	
+#txt2{
+	position: relative;
+	top: -62%;
+	right:-13%
+	}
+	
+#txt3{
+	position: relative;
+	top: -85%;
+	right:-45%;
+	}
+	
+	
+
+#di4{
+	float:left;
+	width:53%;
+	position: relative;
+	top: -20%;
+	left:0%;
+	}
+	
+#di5{
+	float:right;
+	width:50%;
+	position: relative;
+	top: -42%;
+	right:-38%
+	}
+	
+#di6{
+	float:right;
+	width:50%;
+	position: relative;
+	top: 115%;
+	right:-35%;
+	}
+	
+#di7{
+	float:left;
+	width:50%;
+	position: relative;
+	top: 80%;
+	left: 0%
+	}
+	
+#di8{
+	float:right;
+	width:50%;
+	position: relative;
+	top: 48%;
+	right:-34%;
+	}
+	
+input[type='button']
+{
+	background-color:#D49E8D;
+ 	border: none;
+	border-radius: 4px;
+   	padding: 5px 15px;
+  	text-align: center;
+  	text-decoration: none;
+	color:#683B2B;
+  	display: inline-block;
+  	font-size: 25px;
+	font-family:Monotype Corsiva;
+	font-weight: bold;
+}
